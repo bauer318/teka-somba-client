@@ -46,6 +46,15 @@ const productsArray = [
             require('../img/table.jpg')
         ]
     },
+    {
+        name: "Chair",
+        description:"Ккомпьютерное кресло",
+        price:150,
+        available:false,
+        images:[
+            require('../img/chair.jpg')
+        ]
+    },
 ];
 const Products = () => {
     return (
