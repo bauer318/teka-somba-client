@@ -6,36 +6,55 @@ import {Container, Row} from "react-bootstrap";
 
 const baseUrl = 'http://localhost:8081/api/product';
 const images = [require('../img/image.jpg'), require('../img/image2.png'), require('../img/image.jpg')];
+const productsArray = [
+    {
+        name: "Refrigerator",
+        description:"Indesit brand. The power and other details I don't know.",
+        price:6000,
+        available:false,
+        images:[
+            require('../img/refrigerator1.jpg'),
+            require('../img/refrigerator2.jpg'),
+            require('../img/refrigerator3.jpg')
+        ]
+    },
+    {
+        name: "Mattress",
+        description:"Подарок...",
+        price:0,
+        available:true,
+        images:[
+            require('../img/mattress.jpg'),
+        ]
+    },
+    {
+        name: "Printer/Scanner",
+        description:"HP brand. Подарок",
+        price:0,
+        available:false,
+        images:[
+            require('../img/imprimante1.jpg'),
+            require('../img/imprimante2.jpg')
+        ]
+    },
+    {
+        name: "Table",
+        description:"Подарок...",
+        price:0,
+        available:false,
+        images:[
+            require('../img/table.jpg')
+        ]
+    },
+];
 const Products = () => {
-    const [products, setProducts] = useState([]);
-    const [storedBuyer, setStoredBuyer] = useState(null);
-    useEffect(() => {
-        if (isExistBuyer('buyer')) {
-            const b = getItem('buyer');
-            setStoredBuyer(b);
-        }
-        const allProducts = getAll();
-        allProducts.then(result => {
-            setProducts(result);
-        })
-    }, []);
-
-
-    const getAll = async () => {
-        try {
-            const response = await axios.get(baseUrl);
-            return response.data;
-        } catch (error) {
-            console.log(error.response);
-        }
-    }
     return (
         <div>
             {
-                products.length > 0 ? (<Container>
+                productsArray.length > 0 ? (<Container>
                     <Row className="align-items-end">
-                        {products.map((product, it) => <ProductCard key={product.productId} product={product}
-                                                                    image={images[it]} buyer={storedBuyer}/>)}
+                        {productsArray.map((product, it) => <ProductCard key={it} product={product}
+                                                                    images={product.images}/>)}
                     </Row>
                 </Container>) : (
                     <div><h2>Loading...</h2></div>)
