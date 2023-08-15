@@ -61,16 +61,7 @@ const productsArray = [
         price:1500,
         available:false,
         images:[
-            require('../img/microwaves..jpg')
-        ]
-    },
-    {
-        name: "Microwaves",
-        description:"Микроволновая печь",
-        price:1500,
-        available:false,
-        images:[
-            require('../img/microwaves..jpg')
+            require('../img/microwaves.jpg')
         ]
     },
     {
@@ -79,8 +70,8 @@ const productsArray = [
         price:0,
         available:true,
         images:[
-            require('../img/ethernet cable 2.jpg.'),
-            require('../img/ethernet cable 1.jpg.')
+            require('../img/ethernet cable 2.jpg'),
+            require('../img/ethernet cable 1.jpg')
         ]
     },
 ];
