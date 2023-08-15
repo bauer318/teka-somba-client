@@ -55,6 +55,34 @@ const productsArray = [
             require('../img/chair.jpg')
         ]
     },
+    {
+        name: "Microwaves",
+        description:"Микроволновая печь",
+        price:1500,
+        available:false,
+        images:[
+            require('../img/microwaves..jpg')
+        ]
+    },
+    {
+        name: "Microwaves",
+        description:"Микроволновая печь",
+        price:1500,
+        available:false,
+        images:[
+            require('../img/microwaves..jpg')
+        ]
+    },
+    {
+        name: "Ethernet cable",
+        description:"Кабель ethernet",
+        price:0,
+        available:true,
+        images:[
+            require('../img/ethernet cable 2.jpg.'),
+            require('../img/ethernet cable 1.jpg.')
+        ]
+    },
 ];
 const Products = () => {
     return (
