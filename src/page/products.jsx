@@ -22,7 +22,7 @@ const productsArray = [
         name: "Mattress",
         description:"Подарок...",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/mattress.jpg'),
         ]
