@@ -32,7 +32,7 @@ const productsArray = [
     {
         name: "Mattress",
         description:"Матрас",
-        price:5000-4500,
+        price:4500,
         available:true,
         images:[
             require('../img/mattress2.jpg'),
