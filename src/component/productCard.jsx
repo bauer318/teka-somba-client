@@ -24,7 +24,7 @@ const ProductCard = ({product, images}) => {
                     </Card.Text>
                     {
                         product.available ? (<a
-                            href="https://t.me/bjack318"
+                            href={product?.author}
                             target="_blank"
                             rel="noreferrer"
                         >
