@@ -59,7 +59,6 @@ const productsArray = [
         images:[
             require('../img/c5.jpg'),
             require('../img/c1.jpg'),
-            require('../img/c2.jpg'),
             require('../img/c3.jpg'),
             require('../img/c4.jpg'),
             require('../img/c6.jpg'),
@@ -75,7 +74,7 @@ const productsArray = [
         name: "Fan",
         description:"Мини-Вентилятор",
         price:100,
-        available:true,
+        available:false,
         images:[
             require('../img/Fan.jpg')
         ],
@@ -107,7 +106,7 @@ const productsArray = [
         name: "Calculator",
         description:"Калькулятор",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/calculator.jpg')
         ],
