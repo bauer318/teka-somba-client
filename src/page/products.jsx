@@ -8,6 +8,16 @@ const baseUrl = 'http://localhost:8081/api/product';
 const images = [require('../img/image.jpg'), require('../img/image2.png'), require('../img/image.jpg')];
 const productsArray = [
     {
+        name: "Mouse",
+        description:"Мышь",
+        price:0,
+        available:true,
+        images:[
+            require('../img/mouse.jpg'),
+        ],
+        author:"https://t.me/Josafath_07"
+    },
+    {
         name: "Ethernet cable",
         description:"Кабель ethernet",
         price:0,
@@ -40,6 +50,122 @@ const productsArray = [
         ],
         author:"https://t.me/Josafath_07"
     },
+    {
+        name: "The clothes",
+        description:"Одежда",
+        price:0,
+        available:true,
+        images:[
+            require('../img/c5.jpg'),
+            require('../img/c1.jpg'),
+            require('../img/c2.jpg'),
+            require('../img/c3.jpg'),
+            require('../img/c4.jpg'),
+            require('../img/c6.jpg'),
+            require('../img/c7.jpg'),
+            require('../img/c8.jpg'),
+            require('../img/c9.jpg'),
+            require('../img/c10.jpg'),
+            require('../img/c11.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Fan",
+        description:"Мини-Вентилятор",
+        price:100,
+        available:true,
+        images:[
+            require('../img/Fan.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Books",
+        description:"Книги программирования",
+        price:0,
+        available:true,
+        images:[
+            require('../img/Book1.jpg'),
+            require('../img/Book.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Bucket",
+        description:"Ведро",
+        price:0,
+        available:true,
+        images:[
+            require('../img/bucket1.jpg'),
+            require('../img/bucket2.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Calculator",
+        description:"Калькулятор",
+        price:0,
+        available:true,
+        images:[
+            require('../img/calculator.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "PS4",
+        description:"Empty)",
+        price:-1,
+        available:false,
+        images:[
+            require('../img/PS4.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Salad bowl",
+        description:"...",
+        price:0,
+        available:true,
+        images:[
+            require('../img/Salad bowl.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Thermos",
+        description:"Fufu ya moto...",
+        price:0,
+        available:true,
+        images:[
+            require('../img/thermos.jpg'),
+            require('../img/thermos1.jpg'),
+            require('../img/thermos2.jpg'),
+            require('../img/thermos3.jpg'),
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Unknown",
+        description:"Неизвестный",
+        price:0,
+        available:true,
+        images:[
+            require('../img/Unknown.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+    {
+        name: "Salad bowl",
+        description:"...",
+        price:0,
+        available:true,
+        images:[
+            require('../img/Salad bowl.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
+
     {
         name: "Refrigerator",
         description:"Indesit brand. The power and other details I don't know.",
