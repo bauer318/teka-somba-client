@@ -46,7 +46,8 @@ const productsArray = [
         available:true,
         images:[
             require('../img/mattress2.jpg'),
-            require('../img/mattress3.jpg')
+            require('../img/mattress3.jpg'),
+            require('../img/mattress5.jpg')
         ],
         author:"https://t.me/Josafath_07"
     },
