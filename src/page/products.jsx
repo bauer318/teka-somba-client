@@ -8,6 +8,17 @@ const baseUrl = 'http://localhost:8081/api/product';
 const images = [require('../img/image.jpg'), require('../img/image2.png'), require('../img/image.jpg')];
 const productsArray = [
     {
+        name: "Refrigerator",
+        description:"Холодильник",
+        price:3000,
+        available:true,
+        images:[
+            require('../img/refrigerator5.jpg'),
+            require('../img/refrigerator4.jpg')
+        ],
+        author:"https://t.me/Josafath_07"
+    },
+    {
         name: "Mouse",
         description:"Мышь",
         price:0,
@@ -29,17 +40,6 @@ const productsArray = [
         author:"https://t.me/bjack318"
     },
     {
-        name: "Chair",
-        description:"Компьютерное кресло",
-        price:1300,
-        available:true,
-        images:[
-            require('../img/chair2.jpg'),
-            require('../img/chair3.jpg')
-        ],
-        author:"https://t.me/Josafath_07"
-    },
-    {
         name: "Mattress",
         description:"Матрас",
         price:4500,
@@ -48,6 +48,17 @@ const productsArray = [
             require('../img/mattress2.jpg'),
             require('../img/mattress3.jpg'),
             require('../img/mattress5.jpg')
+        ],
+        author:"https://t.me/Josafath_07"
+    },
+    {
+        name: "Chair",
+        description:"Компьютерное кресло",
+        price:1300,
+        available:false,
+        images:[
+            require('../img/chair2.jpg'),
+            require('../img/chair3.jpg')
         ],
         author:"https://t.me/Josafath_07"
     },
@@ -120,16 +131,6 @@ const productsArray = [
         available:false,
         images:[
             require('../img/PS4.jpg')
-        ],
-        author:"https://t.me/bjack318"
-    },
-    {
-        name: "Salad bowl",
-        description:"...",
-        price:0,
-        available:true,
-        images:[
-            require('../img/Salad bowl.jpg')
         ],
         author:"https://t.me/bjack318"
     },
