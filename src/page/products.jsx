@@ -8,6 +8,16 @@ const baseUrl = 'http://localhost:8081/api/product';
 const images = [require('../img/image.jpg'), require('../img/image2.png'), require('../img/image.jpg')];
 const productsArray = [
     {
+        name: "Board",
+        description:"Доска",
+        price:1000,
+        available:true,
+        images:[
+            require('../img/board.jpg')
+        ],
+        author:"https://t.me/Josafath_07"
+    },
+    {
         name: "Refrigerator",
         description:"Холодильник",
         price:3000,
@@ -55,7 +65,7 @@ const productsArray = [
         name: "Chair",
         description:"Компьютерное кресло",
         price:1300,
-        available:false,
+        available:true,
         images:[
             require('../img/chair2.jpg'),
             require('../img/chair3.jpg')
