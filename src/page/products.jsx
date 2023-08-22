@@ -39,17 +39,6 @@ const productsArray = [
         author:"https://t.me/Josafath_07"
     },
     {
-        name: "Ethernet cable",
-        description:"Кабель ethernet",
-        price:0,
-        available:true,
-        images:[
-            require('../img/ethernet cable 2.jpg'),
-            require('../img/ethernet cable 1.jpg')
-        ],
-        author:"https://t.me/bjack318"
-    },
-    {
         name: "Mattress",
         description:"Матрас",
         price:3500,
@@ -133,7 +122,17 @@ const productsArray = [
         ],
         author:"https://t.me/bjack318"
     },
-
+    {
+        name: "Ethernet cable",
+        description:"Кабель ethernet",
+        price:0,
+        available:false,
+        images:[
+            require('../img/ethernet cable 2.jpg'),
+            require('../img/ethernet cable 1.jpg')
+        ],
+        author:"https://t.me/bjack318"
+    },
     {
         name: "PS4",
         description:"Empty)",
