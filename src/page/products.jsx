@@ -20,7 +20,7 @@ const productsArray = [
     {
         name: "Refrigerator",
         description:"Холодильник",
-        price:3000,
+        price:2500,
         available:true,
         images:[
             require('../img/refrigerator5.jpg'),
@@ -52,7 +52,7 @@ const productsArray = [
     {
         name: "Mattress",
         description:"Матрас",
-        price:4500,
+        price:3500,
         available:true,
         images:[
             require('../img/mattress2.jpg'),
