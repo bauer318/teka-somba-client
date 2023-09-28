@@ -11,7 +11,7 @@ const productsArray = [
         name: "Board",
         description:"Доска",
         price:1000,
-        available:true,
+        available:false,
         images:[
             require('../img/board.jpg')
         ],
@@ -21,7 +21,7 @@ const productsArray = [
         name: "Refrigerator",
         description:"Холодильник",
         price:2500,
-        available:true,
+        available:false,
         images:[
             require('../img/refrigerator5.jpg'),
             require('../img/refrigerator4.jpg')
@@ -32,7 +32,7 @@ const productsArray = [
         name: "Mouse",
         description:"Мышь",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/mouse.jpg'),
         ],
@@ -42,7 +42,7 @@ const productsArray = [
         name: "Mattress",
         description:"Матрас",
         price:3500,
-        available:true,
+        available:false,
         images:[
             require('../img/mattress2.jpg'),
             require('../img/mattress3.jpg'),
@@ -54,7 +54,7 @@ const productsArray = [
         name: "Chair",
         description:"Компьютерное кресло",
         price:1300,
-        available:true,
+        available:false,
         images:[
             require('../img/chair2.jpg'),
             require('../img/chair3.jpg')
@@ -65,7 +65,7 @@ const productsArray = [
         name: "The clothes",
         description:"Одежда",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/c5.jpg'),
             require('../img/c1.jpg'),
@@ -94,7 +94,7 @@ const productsArray = [
         name: "Books",
         description:"Книги программирования",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/Book1.jpg'),
             require('../img/Book.jpg')
@@ -105,7 +105,7 @@ const productsArray = [
         name: "Bucket",
         description:"Ведро",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/bucket1.jpg'),
             require('../img/bucket2.jpg')
@@ -147,7 +147,7 @@ const productsArray = [
         name: "Thermos",
         description:"Fufu ya moto...",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/thermos.jpg'),
             require('../img/thermos1.jpg'),
@@ -160,7 +160,7 @@ const productsArray = [
         name: "Unknown",
         description:"Неизвестный",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/Unknown.jpg')
         ],
@@ -170,7 +170,7 @@ const productsArray = [
         name: "Salad bowl",
         description:"...",
         price:0,
-        available:true,
+        available:false,
         images:[
             require('../img/Salad bowl.jpg')
         ],
